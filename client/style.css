@@ -1,0 +1,53 @@
+html, body, #root {
+    height: 90%;
+}
+
+.content {
+    display: flex;
+    height: 90%;
+}
+
+.left {
+    width: 20em;
+    background: lightgray;
+    min-height: 40em;
+    padding: 3em;
+}
+
+.right {
+    width: 30em;
+    min-height: 40em;
+    padding: 3em;
+}
+
+.selected {
+    background: blue;
+}
+
+.item {
+    width: fit-content;
+    padding: 1em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
